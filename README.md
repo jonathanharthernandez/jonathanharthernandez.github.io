@@ -1,3 +1,3 @@
 # jonathanharthernandez.github.io
 
-Contains code for jonathan-hernandez.com
+Contains code and resources for jonathan-hernandez.com
