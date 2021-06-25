@@ -5,3 +5,16 @@ h1, h2, h3, p {
 body {
     background-color: #040E2E;
 }
+
+a:link{
+    color:#B3C9FF;
+}
+a:visited{
+    color:#D8C1F0;
+}
+a:hover{
+    color:#C0F2E4;
+}
+a:active{
+    color:#FFB3B3;
+}
