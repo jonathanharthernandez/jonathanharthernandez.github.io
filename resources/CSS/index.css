@@ -1,12 +1,16 @@
 a:link{
-    background-color:#B3C9FF;
+    background-color:#F0F0FA;
+    color: #000000;
 }
 a:visited{
-    background-color:#D8C1F0;
+    background-color:#F5F0FA;
+    color: #000000;
 }
 a:hover{
-    background-color:#C0F2E4;
+    background-color:#F0FAF0;
+    color: #000000;
 }
 a:active{
-    background-color:#FFB3B3;
+    background-color:#FAF0F0;
+    color: #000000;
 }
