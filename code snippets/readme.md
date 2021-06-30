@@ -2,7 +2,7 @@ This folder contains code snippets for display on my website. I format them with
 
 Current Styling I like to use:
 
-Monokai
-JetBrains Mono
-White background
-No drop shadow
+* Monokai
+* JetBrains Mono
+* White background
+* No drop shadow
