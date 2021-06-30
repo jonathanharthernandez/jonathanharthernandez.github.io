@@ -1,6 +1,6 @@
 This folder contains code snippets for display on my website. I format them with https://carbon.now.sh/
 
-Current Styling I like to use:
+Current settings I like to use on Carbon:
 
 * Monokai
 * JetBrains Mono
