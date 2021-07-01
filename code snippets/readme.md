@@ -3,6 +3,6 @@ This folder contains code snippets for display on my website. I format them with
 Current settings I like to use on Carbon:
 
 * Monokai
-* JetBrains Mono
+* Hack
 * White background
 * No drop shadow
