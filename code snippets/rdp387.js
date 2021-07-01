@@ -14,9 +14,16 @@ function caesarCipher(stringToCipher, shift) {
   return joinedArray;
 }
 
+// 
 console.log(caesarCipher("a", 1));
 console.log(caesarCipher("abcz", 1));
 console.log(caesarCipher("irk", 13));
 console.log(caesarCipher("fushion", 6));
 console.log(caesarCipher("dailyprogrammer", 6));
 console.log(caesarCipher("jgorevxumxgsskx", 20));
+
+/*  TODO
+    Code to handle bad inputs
+    Optional challenge 1
+    Optional challenge 2
+*/
