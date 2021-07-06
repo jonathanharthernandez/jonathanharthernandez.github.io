@@ -4,9 +4,9 @@
   <link rel="stylesheet" href="/resources/CSS/index.css">
 <body>
   <h2>Reddit Daily Programmer Challenge # 395: Nonogram Row</h2>
-  <h3>PROBLEM</h3>
+  <h3>Problem</h3>
   <p>A binary array is an array consisting of only the values 0 and 1. Given a binary array of any length, return an array of positive integers that represent the lengths of the sets of consecutive 1's in the input array, in order from left to right.</p>
-  <h3>SOLUTION</h3>
+  <h3>Solution</h3>
   <p>This was pretty straight forward—this function nonogramRow iterates over a binary array. When the element is a 1, it adds to a variable, onesCount, counting the number of consecutive 1's. When the element is a 0, it pushes onesCount to an array, result.
 There are a few edge cases to deal with:
 Because onesCount is only pushed to result on the 0 branch of the if statement, onesCount is not pushed if the array ends in a 1, or consecutive 1's.
@@ -16,5 +16,8 @@ The function handles this by filtering 0's out of result before returning the so
 Lastly, I validate input by throwing an error if the element is neither 0 nor 1 and exit the function.
 Below is my solution before checking out other solutions:</p>
   <img src = "/resources/images/nonogramRow.png">
+  <h3>Things I learned</h3>
+  <p>I saw another solution that also validated input and logged the attempted input array when it threw an error. This makes a lot of sense and seems more useful than a generic error message.
+</p>
 </body>
 </html>
