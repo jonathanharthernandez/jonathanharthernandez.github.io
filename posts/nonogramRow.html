@@ -1,1 +1,26 @@
+  
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="/resources/CSS/index.css">
+<body>
+  <h2>Reddit Daily Programmer Challenge # 395: Nonogram Row</h2>
+  <h3>PROBLEM</h3>
+  <p>A binary array is an array consisting of only the values 0 and 1. Given a binary array of any length, return an array of positive integers that represent the lengths of the sets of consecutive 1's in the input array, in order from left to right.</p>
+  <h3>SOLUTION</h3>
+  <p>This was pretty straight forward—this function nonogramRow iterates over a binary array. When the element is a 1, it adds to a variable, onesCount, counting the number of consecutive 1's. When the element is a 0, it pushes onesCount to an array, result.
 
+There are a few edge cases to deal with:
+
+Because onesCount is only pushed to result on the 0 branch of the if statement, onesCount is not pushed if the array ends in a 1, or consecutive 1's.
+
+To fix that, I push one last time after exiting the for loop iterating over the array.
+
+Also, when the array starts with a 0 and/or has consecutive 0's, this writes a 0 to result, which is not desired in the final output.
+
+The function handles this by filtering 0's out of result before returning the solution. As a bonus this also clears an extraneous 0 that is pushed to result if the array ends in a 0.
+
+Lastly, I validate input by throwing an error if the element is neither 0 nor 1 and exit the function.
+
+Below is my solution before checking out other solutions:</p>
+</body>
+</html>
