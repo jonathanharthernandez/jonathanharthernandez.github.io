@@ -6,3 +6,4 @@ Current settings I like to use on Carbon:
 * Hack
 * White background
 * No drop shadow
+* No padding
