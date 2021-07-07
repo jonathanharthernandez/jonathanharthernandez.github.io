@@ -4,6 +4,7 @@ var taxRates = [0, .10, .25, .40];
 var incomeCaps = [10000, 30000, 100000, 100000000];
 var taxBracketBalance = [];
 
+// generates the size between each tax bracket, starting from 0 to the first income cap
 for (var i = 0; i < incomeCaps.length; i++) {
   var bracketBalance = 0;
   if (i === 0) {
