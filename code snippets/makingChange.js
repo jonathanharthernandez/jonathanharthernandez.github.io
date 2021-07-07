@@ -8,9 +8,10 @@ function change(amount) {
   var balance = amount;
   var totalCoins = 0;
   for (var i = 0; i < 6; i++) {
-    var denominationCoins = Math.floor(balance / denominations[i]);
+    var denomination = denominations[i];
+    var denominationCoins = Math.floor(balance / denomination);
     totalCoins += denominationCoins;
-    balance -= (denominations[i] * denominationCoins);
+    balance -= (denomination * denominationCoins);
   }
   return totalCoins;
 }
